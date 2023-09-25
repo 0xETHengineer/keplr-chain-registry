@@ -369,6 +369,13 @@
     axios "^0.27.2"
     long "^4.0.0"
 
+"@keplr-wallet/types@0.12.22":
+  version "0.12.22"
+  resolved "https://registry.yarnpkg.com/@keplr-wallet/types/-/types-0.12.22.tgz#4783b564eddd2477821156d720036595193dd466"
+  integrity sha512-b/+AG0gEYJF5A90FgK2a5LG14lKJybX4rbnjxJrD0TAfoNS1P6UlS7Zqm79/X+yuNcRntqPPbzyrdv+dtqDcGA==
+  dependencies:
+    long "^4.0.0"
+
 "@keplr-wallet/unit@0.11.35":
   version "0.11.35"
   resolved "https://registry.yarnpkg.com/@keplr-wallet/unit/-/unit-0.11.35.tgz#33c492f1156a7e80e40a45b873c78ed0195086f1"
