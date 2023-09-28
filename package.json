@@ -22,8 +22,13 @@
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
+< snyk-upgrade-700d5deb02e3c14b0837ecd111246d52
+    "@keplr-wallet/chain-validator": "0.12.22",
+    "@keplr-wallet/common": "0.11.35",
+=
     "@keplr-wallet/chain-validator": "0.11.35",
     "@keplr-wallet/common": "0.12.22",
+> main
     "@keplr-wallet/cosmos": "0.11.35",
     "@keplr-wallet/types": "0.12.22",
     "axios": "^0.27.2",
