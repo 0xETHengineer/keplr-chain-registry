@@ -506,6 +506,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@keplr-wallet/common@npm:0.12.35":
+  version: 0.12.35
+  resolution: "@keplr-wallet/common@npm:0.12.35"
+  dependencies:
+    "@keplr-wallet/crypto": 0.12.35
+    "@keplr-wallet/types": 0.12.35
+    buffer: ^6.0.3
+    delay: ^4.4.0
+    mobx: ^6.1.7
+  checksum: b6544095e17e0d497a6e0e349bd7e609d922871aea506534d34ced0bdd3cd6af85c4d5d5530028c36b1ddc5658b8880c08a8d8c9528e9738102ac6713a71c57c
+  languageName: node
+  linkType: hard
+
 "@keplr-wallet/cosmos@npm:0.12.34":
   version: 0.12.34
   resolution: "@keplr-wallet/cosmos@npm:0.12.34"
@@ -541,6 +554,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@keplr-wallet/crypto@npm:0.12.35":
+  version: 0.12.35
+  resolution: "@keplr-wallet/crypto@npm:0.12.35"
+  dependencies:
+    "@ethersproject/keccak256": ^5.5.0
+    bip32: ^2.0.6
+    bip39: ^3.0.3
+    bs58check: ^2.1.2
+    buffer: ^6.0.3
+    crypto-js: ^4.0.0
+    elliptic: ^6.5.3
+    sha.js: ^2.4.11
+  checksum: bd93cd8ba4706c889513d730c727c0c443215287ded54561dbca3b331c22d735393f08a113aa6538b1171e2a1559647814730cf5ad8efaf27595c2fd5eb8b671
+  languageName: node
+  linkType: hard
+
 "@keplr-wallet/proto-types@npm:0.12.34":
   version: 0.12.34
   resolution: "@keplr-wallet/proto-types@npm:0.12.34"
@@ -564,6 +593,15 @@ __metadata:
   dependencies:
     long: ^4.0.0
   checksum: b672908a8d02e8f852dedbab68b1bd6b5f2f10d0288fcf35f49f30ca82e6682357cbecf69c2d9ee00f05edcc1d03051c607f315a2551e7cf5673757e74b03be3
+  languageName: node
+  linkType: hard
+
+"@keplr-wallet/types@npm:0.12.35":
+  version: 0.12.35
+  resolution: "@keplr-wallet/types@npm:0.12.35"
+  dependencies:
+    long: ^4.0.0
+  checksum: e7846838c504c9e996c9ac19cff8843531fff7e69fd420719c0c705e1110d174cfb22cbb8a4c6f9605a8c92f3cf5e1a0d5cf79a5e5415671baf42f381e623ea2
   languageName: node
   linkType: hard
 
@@ -1747,7 +1785,7 @@ __metadata:
   resolution: "chainapsis-suggest-chain@workspace:."
   dependencies:
     "@keplr-wallet/chain-validator": 0.12.34
-    "@keplr-wallet/common": 0.12.34
+    "@keplr-wallet/common": 0.12.35
     "@keplr-wallet/cosmos": 0.12.34
     "@keplr-wallet/types": 0.12.34
     "@types/cors": ^2.8.13

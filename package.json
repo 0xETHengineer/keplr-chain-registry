@@ -23,7 +23,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@keplr-wallet/chain-validator": "0.12.34",
-    "@keplr-wallet/common": "0.12.34",
+    "@keplr-wallet/common": "0.12.35",
     "@keplr-wallet/cosmos": "0.12.34",
     "@keplr-wallet/types": "0.12.34",
     "axios": "^1.6.0",
